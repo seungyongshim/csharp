@@ -105,8 +105,8 @@
 - 데이터를 교환할 때 고정된 바이트 순서를 사용한다.
 - 명세를 바꾸면 이름을 바꿔라.
 - 기존 프로그램 및 데이터와 호환성을 유지한다.
-- ASCII라고 전제하지 마라.
-- 영어라고 전제하지 마라.
+- ASCII라고 가정하지 마라.
+- 영어라고 가정하지 마라.
 
 ## 참조
 - [Book: The Practice of Programing](https://en.wikipedia.org/wiki/The_Practice_of_Programming)

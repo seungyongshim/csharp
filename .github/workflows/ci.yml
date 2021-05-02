@@ -47,9 +47,10 @@ jobs:
       uses: EndBug/add-and-commit@v4
       with:
         add: 'docs/*'
-        message: 'Coverage Report ${GITHUB_SHA}' 
+        message: "Coverage Report  ${{github.sha}}"
         ref: 'gh-pages' 
         remove: ''  
+      if: contains('main', github.ref)
     - name: Publish Unit Test Results
       uses: docker://ghcr.io/enricomi/publish-unit-test-result-action:v1
       if: always()
